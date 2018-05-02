@@ -1,0 +1,178 @@
+#body
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#activity
+{
+	width:80%;
+	height:600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pictureColumn
+{
+	border-radius: 10px;
+	background: #FFFFFF;
+	border: 3px solid #004e73;
+	width: 204px;
+	height: 265px;
+	float:left;
+}
+
+#picutreHeader
+{
+	border-radius: 6px;
+	background: #004e73;
+	text-align: center;
+	width: 100%;
+	height: 60px;
+}
+
+#picutreHeaderText
+{
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+
+#picture img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	width: 85%;
+	height: 85%;
+}
+
+#descriptionColumn
+{
+	border-radius: 10px;
+	background: #d1dbe3;
+	border: 3px solid #004e73;
+	width: 642px;
+	height: 265px;
+	margin-left: 254px;
+	position: absolute;
+}
+
+#firstBlock
+{
+	float: left;
+	margin-top: 10px;
+	width: 40%;
+	height: 90%;
+}
+
+#separator
+{
+	float: left;
+	border-left: 2px solid #004e73;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 245px;
+}
+
+#secondBlock
+{
+	float: right;
+	margin-top: 10px;
+	width: 60%;
+	height: 90%;
+}
+
+#concernsAndChallenges
+{
+	color: #004e73;
+	margin-left: 40px;
+	font-size: 0.8125em;
+	padding-left:15px;
+	overflow: auto;
+	height: 100%;
+}
+
+#concernsAndChallengesHeader
+{
+	color: #004e73;
+	margin-left: 40px;
+}
+
+#prioritiesHeader
+{
+	color: #004e73;
+	margin-left: 10px;
+}
+
+#priorities
+{
+	color: #004e73;
+	margin-left: 10px;
+	font-size: 0.8125em;
+	padding-left:20px;
+	padding-right: 10px;
+	/*for scroll*/
+	overflow: auto;
+	height: 100%;
+}
+
+#memberList
+{
+	width: 80%;
+	color: #004e73;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	text-align: center;
+}
+
+select
+{
+	color: #FFFFFF;
+	background-color: #004e73;
+	font-size: 16px;
+	font-weight: bold;
+	height: 30px;
+}
+
+select select
+{
+	color: #FFFFFF;
+	background-color: #004e73;
+	font-size: 16px;
+	font-weight: bold;
+	height: 30px;
+}
+
+#descriptionColumn ul
+{
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+#instructions
+{
+	color: #004e73;
+	padding: 10px;
+}
+
+@media only screen and (max-width:1080px)
+{
+	#pictureColumn
+	{
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#descriptionColumn
+	{
+		position: relative;
+		margin-top: 20px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

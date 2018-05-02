@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Learning Management System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="activity.css">
+        <script src="teamData.js" type="text/javascript" defer></script>
+        <script src="activity.js" type="text/javascript" defer></script>
+    </head>
+    <body onload="updateList()">
+		<div id="activity">
+			<div id="pictureColumn">
+				<div id="picutreHeader">
+					<div id="picutreHeaderText">
+						Team member
+					</div>
+				</div>
+				<div id="picture">
+					<img src="images/placeholder.png" alt="team memeber">
+				</div>
+			</div>
+			<div id="descriptionColumn">
+				<div id="firstBlock">
+					<div id="prioritiesHeader">
+						Priorities
+					</div>
+					<div id="priorities">
+					</div>
+				</div>
+				<div id="secondBlock">
+					<div id="separator"></div>
+					<div id="concernsAndChallengesHeader">
+						Concerns and Challenges
+					</div>
+					<div id="concernsAndChallenges">
+					</div>
+				</div>
+			</div>
+			<div id="memberList">
+				<p>Please select a member type</p>
+				<select id="teamMemberType" onchange="onMemberTypeSelect()">
+			  </select>
+			</div>
+		</div>
+	</body>
+</html>
